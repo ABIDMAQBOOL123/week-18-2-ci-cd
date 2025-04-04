@@ -70,6 +70,10 @@ interface Balance {
     locked: number;
 }
 
+
+
+
+
 interface OnRampTransaction {
     time: Date; // Renamed from startTime to time
     amount: number;
